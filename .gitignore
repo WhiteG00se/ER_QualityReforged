@@ -1,9 +1,9 @@
 *.lnk
 *.log
 *.bat
-*.txt
 *.md
-!Tobi's_README.md
+*.txt
+!Tobi's_README.txt
 
 /extras
 /internals
