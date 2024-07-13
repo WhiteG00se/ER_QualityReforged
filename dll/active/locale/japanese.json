@@ -71,6 +71,7 @@
 	"YKNX2_PLAYERDIED": "{} は死亡しました",
 	"YKNX2_BREAKINPLAYERDIED": "侵入者 {} は死亡しました",
 	"YKNX2_BREAKINPLAYERJOIN": "侵入者 {} が侵入しました",
+	"YKNX2_BREAKINPLAYERINTRODUCED": "Invaded world master {} as an evil spirit\nDefeat {} player(s)...",
 	"YKNX2_BOSSFIGHTSTART": "{} がボスに到達しました\n元の世界へ戻ります",
 	"YKNX2_BOSSFIGHTEND": "{} がボスを撃破しました\n元の世界へ戻ります",
 	"YKNX2_PLAYERDISCONNECT": "{} が退出しました",
@@ -80,6 +81,7 @@
 	"YKNX2_INVASIONRADIUSERROR": "侵入できませんでした\nすべての参加者が存在する必要があります",
 	"YKNX2_INVASIONSTATEERROR": "侵入できませんでした\nサインから反応がありませんでした",
 	"YKNX2_PLAYERBONFIRSTFIRSTLVLUP": "{} が祝福を解放しました: {}",
+	"YKNX2_PLAYERBONFIREWARP": "{} has warped to: {}",
 	"ACTIONBUTTON_BOSSROOMKICKOUT": "祝福の力により、闘技場から追放されました",
 
 	"CREDITS": "LukeYui, Furisuke"

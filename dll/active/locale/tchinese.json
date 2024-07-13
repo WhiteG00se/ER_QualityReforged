@@ -70,6 +70,7 @@
 	"YKNX2_PLAYERDIED": "{}已死亡。",
 	"YKNX2_BREAKINPLAYERDIED": "敵對流浪者{}已死亡。",
 	"YKNX2_BREAKINPLAYERJOIN": "被敵對流浪者{}入侵了！",
+	"YKNX2_BREAKINPLAYERINTRODUCED": "Invaded world master {} as an evil spirit\nDefeat {} player(s)...",
 	"YKNX2_BOSSFIGHTSTART": "{}已和區域頭目展開戰鬥，\n將返回原本的世界。",
 	"YKNX2_BOSSFIGHTEND": "{}已擊敗了區域頭目，\n將返回原本的世界。",
 	"YKNX2_PLAYERDISCONNECT": "{}已返回原本的世界。",
@@ -80,6 +81,7 @@
 	"YKNX2_INVASIONRADIUSERROR": "無法入侵其他世界。\n所有的流浪者必須同時在場。",
 	"YKNX2_INVASIONSTATEERROR": "無法入侵其他世界。\n召喚記號沒有回應。",
 	"YKNX2_PLAYERBONFIRSTFIRSTLVLUP": "{}已發現賜福：{}",
+	"YKNX2_PLAYERBONFIREWARP": "{} has warped to: {}",
 	"ACTIONBUTTON_BOSSROOMKICKOUT": "賜福之力將您逐出了競技場。",
 
 	"CREDITS": "Flygon, the Templar"

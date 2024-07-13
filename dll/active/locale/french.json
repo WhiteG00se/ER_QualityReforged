@@ -70,6 +70,7 @@
 	"YKNX2_PLAYERDIED": "{} a péri",
 	"YKNX2_BREAKINPLAYERDIED": "Le vagabond malveillant {} a péri",
 	"YKNX2_BREAKINPLAYERJOIN": "Le vagabond malveillant {} vous envahit !",
+	"YKNX2_BREAKINPLAYERINTRODUCED": "Invaded world master {} as an evil spirit\nDefeat {} player(s)...",
 	"YKNX2_BOSSFIGHTSTART": "{} a rencontré un ennemi majeur.\nRetour dans votre monde...",
 	"YKNX2_BOSSFIGHTEND": "{} a vaincu un ennemi majeur.\nRetour dans votre monde...",
 	"YKNX2_PLAYERDISCONNECT": "{} a quitté votre monde",
@@ -80,6 +81,7 @@
 	"YKNX2_INVASIONRADIUSERROR": "Impossible d'envahir\nTous les vagabonds doivent être présents",
 	"YKNX2_INVASIONSTATEERROR": "Impossible d'envahir\nLe signe ne vous réponds pas",
 	"YKNX2_PLAYERBONFIRSTFIRSTLVLUP": "{} a activé le Site de grâce : {}",
+	"YKNX2_PLAYERBONFIREWARP": "{} has warped to: {}",
 	"ACTIONBUTTON_BOSSROOMKICKOUT": "Le pouvoir de la grâce vous a expulsé de l'arène",
 
 	"CREDITS": "LukeYui, traduit par Antoine Pélissier"

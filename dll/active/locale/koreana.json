@@ -70,6 +70,7 @@
 	"YKNX2_PLAYERDIED": "{}(이)가 죽었습니다",
 	"YKNX2_BREAKINPLAYERDIED": "적대적인 방랑자 {}(이)가 죽었습니다",
 	"YKNX2_BREAKINPLAYERJOIN": "적대적인 방랑자 {}(이)가 침입하였습니다!",
+	"YKNX2_BREAKINPLAYERINTRODUCED": "Invaded world master {} as an evil spirit\nDefeat {} player(s)...",
 	"YKNX2_BOSSFIGHTSTART": "{}(이)가 보스와 조우하였습니다\n세계로 돌아갑니다...",
 	"YKNX2_BOSSFIGHTEND": "{}(이)가 보스와의 대결에서 승리하였습니다\n세계로 돌아갑니다...",
 	"YKNX2_PLAYERDISCONNECT": "{}(이)가 퇴장하였습니다",
@@ -80,6 +81,7 @@
 	"YKNX2_INVASIONRADIUSERROR": "침입할 수 없습니다\n모든 방랑자가 주변에 있어야만 합니다",
 	"YKNX2_INVASIONSTATEERROR": "침입할 수 없습니다\n사인이 반응하지 않았습니다",
 	"YKNX2_PLAYERBONFIRSTFIRSTLVLUP": "{} 가 축복을 활성화하였습니다: {}",
+	"YKNX2_PLAYERBONFIREWARP": "{} has warped to: {}",
 	"ACTIONBUTTON_BOSSROOMKICKOUT": "은혜의 힘이 당신을 경기장에서 쫓아냈습니다",
 
 	"CREDITS": "Jun Hwi Gu, Rox Rapidsta, yasmin.tv, and EKa001"
