@@ -4,6 +4,7 @@
 *.md
 *.txt
 !Tobi's_README.txt
+!Tobi's_README.md
 !load.txt
 
 /extras
