@@ -1,8 +1,8 @@
 # 3rd Party Mods
 
-- UltrawideFix / Remove black bars https://www.nexusmods.com/eldenring/mods/175
-- Unlock the framerate https://www.nexusmods.com/eldenring/mods/216
-- Seamless Coop https://www.nexusmods.com/eldenring/mods/510
+- UltrawideFix / Remove black bars https://www.nexusmods.com/eldenring/mods/175?tab=files
+- Unlock the framerate https://www.nexusmods.com/eldenring/mods/216?tab=files
+- Seamless Coop https://www.nexusmods.com/eldenring/mods/510?tab=files
 
 # how to install
 
