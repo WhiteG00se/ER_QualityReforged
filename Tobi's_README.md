@@ -9,11 +9,10 @@
 - GIT CLONE this repo
 - download latest version of ERR from their discord (under "updates"): https://discord.gg/rGY3W7xe
 - unzip ERR into the repo folder
-- discard all changes in your GIT client
+- discard all changed and deleted files with GIT (if there are added files, the gitignore is outdated)
 
 # how to update ERR
 
 - download latest version of ERR from their discord (under "updates"): https://discord.gg/rGY3W7xe
-- delete everything in the repo
 - unzip ERR into the repo folder
-- discard all changes in your GIT client
+- discard all changed and deleted files with GIT (if there are added files, the gitignore is outdated)
