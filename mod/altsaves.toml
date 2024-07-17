@@ -3,3 +3,4 @@ extension = ".err"
 
 # Extension you want use for the save files while playing with seamless coop enabled.
 seamless_extension = ".err"
+test
