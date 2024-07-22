@@ -9,11 +9,10 @@
 - download latest version of ERR from their discord (under "updates"): https://discord.gg/rGY3W7xe
 - unzip ERR into the repo folder
 - discard all changed and deleted files with GIT (if there are added files, the gitignore is outdated)
-- run "Reforged UI Setup (run after updates)"
 
 # how to update ERR
 
 - download latest version of ERR from their discord (under "updates"): https://discord.gg/rGY3W7xe
+- delete everything in previous folder, then discard deleted gitignore
 - unzip ERR into the repo folder
 - discard all changed and deleted files with GIT (if there are added files, the gitignore is outdated)
-- run "Reforged UI Setup (run after updates)"
