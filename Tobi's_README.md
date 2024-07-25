@@ -1,5 +1,6 @@
 # 3rd Party Mods
 
+- EldenRingFpsUnlockAndMore https://github.com/uberhalit/EldenRingFpsUnlockAndMore/releases
 - Unlock the framerate https://www.nexusmods.com/eldenring/mods/216?tab=files
 - Seamless Coop https://www.nexusmods.com/eldenring/mods/510?tab=files
 
