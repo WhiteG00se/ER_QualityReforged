@@ -41,6 +41,7 @@
 	"OPTIONSELECT_JOINWORLD": "Junte-se a um mundo como viajante",
 	"OPTIONSELECT_BREAKINWORLD": "Invade um mundo como viajante",
 	"OPTIONSELECT_RAPIDREENTRYRBREAKINWORLD": "Procurando por oponentes",
+	"OPTIONSELECT_CALLBREAKINSOS": "Mark world for other invaders",
 	"OPTIONSELECT_LEAVEWORLD": "Deixe o grupo",
 	"OPTIONSELECT_LOCKWORLD": "Tranca o mundo de viajantes",
 	"OPTIONSELECT_UNLOCKWORLD": "Destranca o mundo de viajantes",
@@ -53,6 +54,7 @@
 	"FE_PLAYERDEATH": "VOCÊ MORREU",
 	"FE_BLOCKCLEAR": "INIMIGO CAÍDO",
 	"FE_PKMISSIONSUCCESS": "VITÓRIA CONQUISTADA",
+	"FE_PKPLAYERBANISHED": "INVADER VANQUISHED",
 
 	"YKNX2_DISPLAYPASSWORD": "Senha da sessão\n{}",
 	"YKNX2_HOSTINGFAILED": "Falhou em começar a sessão:\n{}",
