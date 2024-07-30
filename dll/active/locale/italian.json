@@ -41,7 +41,6 @@
 	"OPTIONSELECT_JOINWORLD": "Unisciti al mondo di un altro giocatore come viandante",
 	"OPTIONSELECT_BREAKINWORLD": "Invadi il mondo di un altro giocatore come viandante",
 	"OPTIONSELECT_LEAVEWORLD": "Lascia questo mondo",
-	"OPTIONSELECT_CALLBREAKINSOS": "Mark world for other invaders",
 	"OPTIONSELECT_LOCKWORLD": "Blocca il mondo a nuovi viandanti",
 	"OPTIONSELECT_UNLOCKWORLD": "Sblocca il mondo a nuovi viandanti",
 	"OPTIONSELECT_SHOWYKNX2PASSWORD": "Mostra la password della sessione attuale",
@@ -50,11 +49,13 @@
 	"OPTIONSELECT_TOGGLEFRIENDLYFIRE": "Abilita il fuoco amico",
 	"OPTIONSELECT_GIVEEMBER": "Sacrifica {} rune per un arco runico",
 	"OPTIONSELECT_RAPIDREENTRYRBREAKINWORLD": "Cerca un nemico",
+	"OPTIONSELECT_CALLBREAKINSOS": "Contrassegna il mondo per altri invasori",
 
 	"FE_PLAYERDEATH": "SEI MORTO",
 	"FE_BLOCKCLEAR": "NEMICO SCONFITTO",
 	"FE_PKMISSIONSUCCESS": "VITTORIA",
-	"FE_PKPLAYERBANISHED": "INVADER VANQUISHED",
+	"FE_PKPLAYERBANISHED": "INVASORE SCONFITTO",
+
 
 	"YKNX2_DISPLAYPASSWORD": "Password della sessione\n{}",
 	"YKNX2_HOSTINGFAILED": "Impossibile creare la sessione:\n{}",
