@@ -20,4 +20,4 @@ SELECT
   a.menuIconId,
   a.pad2
 WHERE
-  a.value.length > 1
+  a.value > 9
