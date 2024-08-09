@@ -1,23 +1,5 @@
 SELECT
   a.ID,
-  a.Name,
-  a.equipId,
-  (Math.ceil(a.value / 10)) AS value,
-  a.mtrlId,
-  a.eventFlag_forStock,
-  a.eventFlag_forRelease,
-  a.sellQuantity,
-  a.pad3,
-  a.equipType,
-  a.costType,
-  a.pad1,
-  a.setNum,
-  a.value_Add,
-  a.value_Magnification,
-  a.iconId,
-  a.nameMsgId,
-  a.menuTitleMsgId,
-  a.menuIconId,
-  a.pad2
+  (Math.ceil(a.value / 100)) AS value
 WHERE
-  a.value > 9
+  a.value > 0
