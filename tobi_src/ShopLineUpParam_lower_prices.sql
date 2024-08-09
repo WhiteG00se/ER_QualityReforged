@@ -2,7 +2,7 @@ SELECT
   a.ID,
   a.Name,
   a.equipId,
-  (a.value.toString().slice(0, -1)) AS value,
+  (Math.ceil(a.value / 10)) AS value,
   a.mtrlId,
   a.eventFlag_forStock,
   a.eventFlag_forRelease,
