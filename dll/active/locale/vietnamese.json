@@ -12,6 +12,7 @@
 	"MODGOODSNAME_ROTITEM03": "Rot Essence: Phân Hủy",
 	"MODGOODSNAME_ROTITEM04": "Rot Essence: Tổn Thương",
 	"MODGOODSNAME_ROTITEM05": "Rot Essence: Tuyệt Vọng",
+	"MODGOODSNAME_DRIEDFINGERITEM": "Dried Fingers",
 
 	"MODGOODSINFO_HOSTINGITEM": "Khai mở thế giới cho những kẻ lang thang",
 	"MODGOODSINFO_JOININGITEM": "Gia nhập thế giới khác với vai trò kẻ lang thang",
@@ -24,6 +25,7 @@
 	"MODGOODSINFO_ROTITEM03": "Giảm khả năng thu thập cổ ngữ và khám phá vật phẩm",
 	"MODGOODSINFO_ROTITEM04": "Giảm sức phòng thủ",
 	"MODGOODSINFO_ROTITEM05": "Giảm sức tấn công",
+	"MODGOODSINFO_DRIEDFINGERITEM": "Attracts more invaders to current world",
 
 	"MODGOODSDESC_HOSTINGITEM": "Vật phẩm để chơi Seamless Coop.\n\nKhai mở thế giới cho những kẻ lang thang.\n\nCái Niêu Nhỏ sẽ luôn tìm kiếm những chiến binh có năng lực để bổ sung nhân lực. Bằng cách bày ra biểu tượng của nó, những chiến binh đầy tham vọng sẽ tham gia cùng ngươi trên con đường, trông chờ vào vận số của họ.",
 	"MODGOODSDESC_JOININGITEM": "Vật phẩm để chơi Seamless Coop.\n\nGia nhập thế giới khác với vai trò kẻ lang thang.\n\nNhiều chiến binh đã xem Malenia là biểu tượng của sức mạnh tối thượng. Hình nộm của cô ấy, chứa đựng tàn tích sự mục rữa của cô ấy, thu hút bất kì ai tìm kiếm những chiến binh mạnh mẽ.",
@@ -36,6 +38,7 @@
 	"MODGOODSDESC_ROTITEM03": "Bản chất của một Tarnished sa ngã, bị lãng quên bởi sự ân sủng. Mang theo tinh chất thối rữa, và gây ra lời nguyền cho người nắm giữ.\n\nSự Thối Rữa nắm giữ mối liên kết với người thiếu nữ của ngươi. Melina có vẻ lạnh nhạt hơn; những lợi ích và món quà từ cô ấy dần xa hơn.\n\nNghỉ ngơi ở Sites of Grace sẽ xóa bỏ tất cả sự thối rữa.",
 	"MODGOODSDESC_ROTITEM04": "Bản chất của một Tarnished sa ngã, bị lãng quên bởi sự ân sủng. Mang theo tinh chất thối rữa, và gây ra lời nguyền cho người nắm giữ.\n\nNgươi đang dần suy yếu. Một nhánh hùng mạnh của Erdtree giờ chỉ còn là một cành cây. \n\nNghỉ ngơi ở Sites of Grace sẽ xóa bỏ tất cả sự thối rữa.",
 	"MODGOODSDESC_ROTITEM05": "Bản chất của một Tarnished sa ngã, bị lãng quên bởi sự ân sủng. Mang theo tinh chất thối rữa, và gây ra lời nguyền cho người nắm giữ.\n\nMọi cuộc tranh đấu dần trở nên gian khổ. Thế giới có trở nên thù địch hơn khi ngươi xuất hiện, hay người đã xa lánh chính mình?\n\nNghỉ ngơi ở Sites of Grace sẽ xóa bỏ tất cả sự thối rữa.",
+	"MODGOODSDESC_DRIEDFINGERITEM": "Item for seamless online play.\n\nAttracts more invaders to current world.\n\nAn enticing finger pendant, attractive to those who wish to collect them. Simply flashing it will call forth all those who wish to reap fingers.",
 
 	"OPTIONSELECT_OPENWORLD": "Khai mở thế giới cho những kẻ lang thang",
 	"OPTIONSELECT_JOINWORLD": "Gia nhập thế giời với vai trò kẻ lang thang",
@@ -49,12 +52,21 @@
 	"OPTIONSELECT_TOGGLEPVP": "Chuyển đổi PvP",
 	"OPTIONSELECT_TOGGLEPVPTEAMS": "Chuyển đổi các đội PvP",
 	"OPTIONSELECT_TOGGLEFRIENDLYFIRE": "Chuyển đổi friendly fire",
+	"OPTIONSELECT_TOGGLEDRIEDFINGER": "Open world to more invaders",
 	"OPTIONSELECT_GIVEEMBER": "Tiêu thụ {} cổ ngữ cho một vòng cung cổ ngữ",
+	"OPTIONSELECT_EASYENEMYRUSH": "Easy",
+	"OPTIONSELECT_MEDENEMYRUSH": "Medium",
+	"OPTIONSELECT_HARDENEMYRUSH": "Hard",
+	"OPTIONSELECT_INFENEMYRUSH": "Impossible",
+	"OPTIONSELECT_BOSSRUSH": "BOSS",
 
 	"FE_PLAYERDEATH": "TỬ TRẬN",
 	"FE_BLOCKCLEAR": "KẺ ĐỊCH ĐÃ GỤC NGÃ",
 	"FE_PKMISSIONSUCCESS": "CHIẾN THẮNG",
 	"FE_PKPLAYERBANISHED": "INVADER VANQUISHED",
+	"FE_BRARENASTART": "START",
+	"FE_BRARENALOSE": "FAILURE",
+	"FE_BRARENAWIN": "VICTORY",
 
 	"YKNX2_DISPLAYPASSWORD": "Mật khẩu của session\n{}",
 	"YKNX2_HOSTINGFAILED": "Tham gia session thất bại:\n{}",
@@ -88,6 +100,10 @@
 	"YKNX2_INVASIONRAPIDREENTRYINFO": "Chiếc ghim cài đang rung chuyển...",
 
 	"ACTIONBUTTON_BOSSROOMKICKOUT": "Sức mạnh của Grace đã trục xuất ngươi khỏi đấu trường",
+	
+	"YKBR2_INFORMBATTLESTART": "You feel a mysterious warmth wash over you",	
+	"YKBR2_INFORMBATTLEWAVE": "Battle wave {} is approaching...",
+	"YKBR2_INFORMBATTLEEND": "You begin to awake...",
 
 	"CREDITS": "LukeYui"
 }

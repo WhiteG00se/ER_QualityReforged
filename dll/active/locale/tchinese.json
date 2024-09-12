@@ -12,6 +12,7 @@
 	"MODGOODSNAME_ROTITEM03": "腐敗精隨：頹敗",
 	"MODGOODSNAME_ROTITEM04": "腐敗精隨：衰弱",
 	"MODGOODSNAME_ROTITEM05": "腐敗精隨：絕望",
+	"MODGOODSNAME_DRIEDFINGERITEM": "Dried Fingers",
 
 	"MODGOODSINFO_HOSTINGITEM": "將世界開放於流浪者",
 	"MODGOODSINFO_JOININGITEM": "作為流浪者加入其他世界",
@@ -24,6 +25,7 @@
 	"MODGOODSINFO_ROTITEM03": "減少盧恩的獲取量及觀察力",
 	"MODGOODSINFO_ROTITEM04": "降低減傷率",
 	"MODGOODSINFO_ROTITEM05": "降低攻擊力",
+	"MODGOODSINFO_DRIEDFINGERITEM": "Attracts more invaders to current world",
 
 	"MODGOODSDESC_HOSTINGITEM": "此道具用於無縫連線模式。\n\n並開放您的世界給流浪者所參加。\n\n大壺為了提升自身的價值而不斷的尋求有能力的戰士們。而示出這個徽章將會引來這些備具野心的戰士者們，但其餘的將由其定奪。",
 	"MODGOODSDESC_JOININGITEM": "此道具用於無縫連線模式。\n\n作為「流浪者」加入其他世界。\n\n瑪蓮妮雅作為戰無不勝的象徵受到許多戰士們的景仰， 而她的神像則保留了她身上所殘留的猩紅腐敗，進而吸引著那些不斷追求力量的戰士們",
@@ -36,6 +38,7 @@
 	"MODGOODSDESC_ROTITEM03": "從那些被賜福所拋棄而墮落的褪色者中所誕生的精隨。\n\n所背負的腐敗精隨是一種詛咒，不斷的提醒著生命的短暫與脆弱，再將其附加於持有者身上。\n\n腐敗奪走了你與女巫之間的聯繫，梅琳娜看似愈加消色，您與她之間的牽絆也漸行漸遠。於賜福中休息將能消除所有形式的腐敗。",
 	"MODGOODSDESC_ROTITEM04": "從那些被賜福所拋棄而墮落的褪色者中所誕生的精隨。\n\n所背負的腐敗精隨是一種詛咒，不斷的提醒著生命的短暫與脆弱，再將其附加於持有者身上。\n\n你逐漸衰弱，在過去曾是黃金樹的強大依枝的你，如今僅淪為枯枝。於賜福中休息將能消除所有形式的腐敗。",
 	"MODGOODSDESC_ROTITEM05": "從那些被賜福所拋棄而墮落的褪色者中所誕生的精隨。\n\n所背負的腐敗精隨是一種詛咒，不斷的提醒著生命的短暫與脆弱，再將其附加於持有者身上。。\n\n每次的戰鬥都愈加艱辛，是這個世界否定了你的存在？還是你否定了這個世界？\n\n於賜福中休息將能消除所有形式的腐敗。",
+	"MODGOODSDESC_DRIEDFINGERITEM": "Item for seamless online play.\n\nAttracts more invaders to current world.\n\nAn enticing finger pendant, attractive to those who wish to collect them. Simply flashing it will call forth all those who wish to reap fingers.",
 
 	"OPTIONSELECT_OPENWORLD": "將世界開放於流浪者們",
 	"OPTIONSELECT_JOINWORLD": "作為流浪者，加入其他世界",
@@ -49,12 +52,21 @@
 	"OPTIONSELECT_TOGGLEPVP": "切換對戰模式",
 	"OPTIONSELECT_TOGGLEPVPTEAMS": "切換對戰隊伍",
 	"OPTIONSELECT_TOGGLEFRIENDLYFIRE": "切換友軍傷害",
+	"OPTIONSELECT_TOGGLEDRIEDFINGER": "Open world to more invaders",
 	"OPTIONSELECT_GIVEEMBER": "是否消耗{}盧恩來啟用盧恩彎弧？",
+	"OPTIONSELECT_EASYENEMYRUSH": "Easy",
+	"OPTIONSELECT_MEDENEMYRUSH": "Medium",
+	"OPTIONSELECT_HARDENEMYRUSH": "Hard",
+	"OPTIONSELECT_INFENEMYRUSH": "Impossible",
+	"OPTIONSELECT_BOSSRUSH": "BOSS",
 
 	"FE_PLAYERDEATH": "DEATH",
 	"FE_BLOCKCLEAR": "ENEMY FELLED",
 	"FE_PKMISSIONSUCCESS": "VICTORY ACHIEVED",
 	"FE_PKPLAYERBANISHED": "INVADER VANQUISHED",
+	"FE_BRARENASTART": "START",
+	"FE_BRARENALOSE": "FAILURE",
+	"FE_BRARENAWIN": "VICTORY",
 
 	"YKNX2_DISPLAYPASSWORD": "連線配對暗號：\n{}。",
 	"YKNX2_HOSTINGFAILED": "無法對外開啟世界：\n{}。",
@@ -88,6 +100,10 @@
 	"YKNX2_INVASIONRAPIDREENTRYINFO": "挑戰者鍵針正在顫動。",
 
 	"ACTIONBUTTON_BOSSROOMKICKOUT": "賜福之力將您逐出了此區域。",
+	
+	"YKBR2_INFORMBATTLESTART": "You feel a mysterious warmth wash over you",	
+	"YKBR2_INFORMBATTLEWAVE": "Battle wave {} is approaching...",
+	"YKBR2_INFORMBATTLEEND": "You begin to awake...",
 
 	"CREDITS": "Flygon, the Templar"
 }
