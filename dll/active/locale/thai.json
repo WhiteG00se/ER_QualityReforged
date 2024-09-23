@@ -104,6 +104,9 @@
 	"YKBR2_INFORMBATTLESTART": "You feel a mysterious warmth wash over you",	
 	"YKBR2_INFORMBATTLEWAVE": "Battle wave {} is approaching...",
 	"YKBR2_INFORMBATTLEEND": "You begin to awake...",
+	"YKBR2_NOFUNCTION": "You must first open your world",
+	"YKBR2_NOPERMISSION": "Only the world's master can interact with it",
+	"YKBR2_NOACCESS": "Dragonlord Placidusax denies your entry",
 
 	"CREDITS": "LukeYui, BazAKu"
 }

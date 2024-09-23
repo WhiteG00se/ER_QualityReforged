@@ -2,7 +2,7 @@
 	"GENERIC_INVALID": "什麼事都沒發生。",
 
 	"MODGOODSNAME_HOSTINGITEM": "迷你大壺",
-	"MODGOODSNAME_JOININGITEM": "瑪蓮妮雅的神像",
+	"MODGOODSNAME_JOININGITEM": "瑪蓮妮雅像",
 	"MODGOODSNAME_BREAKINITEM": "挑戰者鍵針",
 	"MODGOODSNAME_LEAVINGITEM": "惜別濛霧",
 	"MODGOODSNAME_GAMERULECHANGEITEM": "判官的法典",
@@ -12,7 +12,7 @@
 	"MODGOODSNAME_ROTITEM03": "腐敗精隨：頹敗",
 	"MODGOODSNAME_ROTITEM04": "腐敗精隨：衰弱",
 	"MODGOODSNAME_ROTITEM05": "腐敗精隨：絕望",
-	"MODGOODSNAME_DRIEDFINGERITEM": "Dried Fingers",
+	"MODGOODSNAME_DRIEDFINGERITEM": "乾縮手指墜飾",
 
 	"MODGOODSINFO_HOSTINGITEM": "將世界開放於流浪者",
 	"MODGOODSINFO_JOININGITEM": "作為流浪者加入其他世界",
@@ -25,7 +25,7 @@
 	"MODGOODSINFO_ROTITEM03": "減少盧恩的獲取量及觀察力",
 	"MODGOODSINFO_ROTITEM04": "降低減傷率",
 	"MODGOODSINFO_ROTITEM05": "降低攻擊力",
-	"MODGOODSINFO_DRIEDFINGERITEM": "Attracts more invaders to current world",
+	"MODGOODSINFO_DRIEDFINGERITEM": "引來更多入侵者的入侵。",
 
 	"MODGOODSDESC_HOSTINGITEM": "此道具用於無縫連線模式。\n\n並開放您的世界給流浪者所參加。\n\n大壺為了提升自身的價值而不斷的尋求有能力的戰士們。而示出這個徽章將會引來這些備具野心的戰士者們，但其餘的將由其定奪。",
 	"MODGOODSDESC_JOININGITEM": "此道具用於無縫連線模式。\n\n作為「流浪者」加入其他世界。\n\n瑪蓮妮雅作為戰無不勝的象徵受到許多戰士們的景仰， 而她的神像則保留了她身上所殘留的猩紅腐敗，進而吸引著那些不斷追求力量的戰士們",
@@ -38,7 +38,7 @@
 	"MODGOODSDESC_ROTITEM03": "從那些被賜福所拋棄而墮落的褪色者中所誕生的精隨。\n\n所背負的腐敗精隨是一種詛咒，不斷的提醒著生命的短暫與脆弱，再將其附加於持有者身上。\n\n腐敗奪走了你與女巫之間的聯繫，梅琳娜看似愈加消色，您與她之間的牽絆也漸行漸遠。於賜福中休息將能消除所有形式的腐敗。",
 	"MODGOODSDESC_ROTITEM04": "從那些被賜福所拋棄而墮落的褪色者中所誕生的精隨。\n\n所背負的腐敗精隨是一種詛咒，不斷的提醒著生命的短暫與脆弱，再將其附加於持有者身上。\n\n你逐漸衰弱，在過去曾是黃金樹的強大依枝的你，如今僅淪為枯枝。於賜福中休息將能消除所有形式的腐敗。",
 	"MODGOODSDESC_ROTITEM05": "從那些被賜福所拋棄而墮落的褪色者中所誕生的精隨。\n\n所背負的腐敗精隨是一種詛咒，不斷的提醒著生命的短暫與脆弱，再將其附加於持有者身上。。\n\n每次的戰鬥都愈加艱辛，是這個世界否定了你的存在？還是你否定了這個世界？\n\n於賜福中休息將能消除所有形式的腐敗。",
-	"MODGOODSDESC_DRIEDFINGERITEM": "Item for seamless online play.\n\nAttracts more invaders to current world.\n\nAn enticing finger pendant, attractive to those who wish to collect them. Simply flashing it will call forth all those who wish to reap fingers.",
+	"MODGOODSDESC_DRIEDFINGERITEM": "此道具用於無縫連線模式。\n\n將會吸引更多的入侵者前來。\n\n這個誘人的指頭墜飾會吸引著那些可望取得它的人們。僅需些微的光芒就便能引來欲求指頭的人群。",
 
 	"OPTIONSELECT_OPENWORLD": "將世界開放於流浪者們",
 	"OPTIONSELECT_JOINWORLD": "作為流浪者，加入其他世界",
@@ -52,13 +52,19 @@
 	"OPTIONSELECT_TOGGLEPVP": "切換對戰模式",
 	"OPTIONSELECT_TOGGLEPVPTEAMS": "切換對戰隊伍",
 	"OPTIONSELECT_TOGGLEFRIENDLYFIRE": "切換友軍傷害",
-	"OPTIONSELECT_TOGGLEDRIEDFINGER": "Open world to more invaders",
+	"OPTIONSELECT_TOGGLEDRIEDFINGER": "開放世界給更多的入侵者",
 	"OPTIONSELECT_GIVEEMBER": "是否消耗{}盧恩來啟用盧恩彎弧？",
-	"OPTIONSELECT_EASYENEMYRUSH": "Easy",
-	"OPTIONSELECT_MEDENEMYRUSH": "Medium",
-	"OPTIONSELECT_HARDENEMYRUSH": "Hard",
-	"OPTIONSELECT_INFENEMYRUSH": "Impossible",
+	"OPTIONSELECT_EASYENEMYRUSH": "簡單",
+	"OPTIONSELECT_MEDENEMYRUSH": "中等",
+	"OPTIONSELECT_HARDENEMYRUSH": "困難",
+	"OPTIONSELECT_INFENEMYRUSH": "極難",
 	"OPTIONSELECT_BOSSRUSH": "BOSS",
+	"OPTIONSELECT_BOSSRUSHDLC": "BOSS (DLC)",
+	"OPTIONSELECT_BOSSRUSHBASEDLC": "BOSS (ALL)",
+	"OPTIONSELECT_STARTEVILSESSION": "Start evil session",
+	"OPTIONSELECT_SEEKEVILSESSION": "Join evil session",
+	"OPTIONSELECT_VIEWEVILSESSION": "View evil session",
+	"OPTIONSELECT_LEAVEEVILSESSION": "Leave evil session",
 
 	"FE_PLAYERDEATH": "DEATH",
 	"FE_BLOCKCLEAR": "ENEMY FELLED",
@@ -101,9 +107,12 @@
 
 	"ACTIONBUTTON_BOSSROOMKICKOUT": "賜福之力將您逐出了此區域。",
 	
-	"YKBR2_INFORMBATTLESTART": "You feel a mysterious warmth wash over you",	
-	"YKBR2_INFORMBATTLEWAVE": "Battle wave {} is approaching...",
-	"YKBR2_INFORMBATTLEEND": "You begin to awake...",
+	"YKBR2_INFORMBATTLESTART": "你感受到一股神秘的暖意向你襲來。",	
+	"YKBR2_INFORMBATTLEWAVE": "第 {} 波攻擊即將到來",
+	"YKBR2_INFORMBATTLEEND": "你即將甦醒",
+	"YKBR2_NOFUNCTION": "You must first open your world",
+	"YKBR2_NOPERMISSION": "Only the world's master can interact with it",
+	"YKBR2_NOACCESS": "Dragonlord Placidusax denies your entry",
 
 	"CREDITS": "Flygon, the Templar"
 }

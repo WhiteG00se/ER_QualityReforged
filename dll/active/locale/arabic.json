@@ -38,7 +38,7 @@
 	"MODGOODSDESC_ROTITEM03": "ماهية الساقط المشوه، المنسي بالنعمة. إن حمل ماهية العفن على شخص ما هو تذكير دائم بحياتهم الهشه، ويسبب لعنة على حامله.\n\nيتحكم العفن في اتصالك بعذراءك. تبدو ميلينا أكثر خفوتًا. نعمها وهداياها أبعد.\n\nتوفر مواقع النعمة فترة راحة من جميع أشكال التعفن.",
 	"MODGOODSDESC_ROTITEM04": "ماهية الساقط المشوه، المنسي بالنعمة. إن حمل ماهية العفن على شخص ما هو تذكير دائم بحياتهم الهشه، ويسبب لعنة على حامله.\n\nأنت ضعيف. ما كان فرعًا عظيمًا من شجرة إرد أصبح الآن مجرد غصين. \n\nتوفر مواقع النعمة فترة راحة من جميع أشكال التعفن.",
 	"MODGOODSDESC_ROTITEM05": "ماهية الساقط المشوه، المنسي بالنعمة. إن حمل ماهية العفن على شخص ما هو تذكير دائم بحياتهم الهشه، ويسبب لعنة على حامله.\n\nكل صراع يصبح شاقا. هل أصبح العالم أكثر عدائية لوجودك أم أنك تجنبت نفسك؟\n\nتوفر مواقع النعمة فترة راحة من جميع أشكال التعفن.",
-	"MODGOODSDESC_DRIEDFINGERITEM": "Item for seamless online play.\n\nAttracts more invaders to current world.\n\nAn enticing finger pendant, attractive to those who wish to collect them. Simply flashing it will call forth all those who wish to reap fingers.",
+	"MODGOODSDESC_DRIEDFINGERITEM": "عنصر للعب السلس عبر الإنترنت.\n\nيجذب المزيد من الغزاة إلى العالم الحالي.\n\nقلادة أصابع جذابة، جاذبة للذين يرغبون في جمعها. بمجرد لمعة بسيطة سوف يستدعى كل من يرغبون في جني الأصابع.",
 
 	"OPTIONSELECT_OPENWORLD": "فتح العالم للمتجولين",
 	"OPTIONSELECT_JOINWORLD": "إنضمام إلى عالم كمتجول",
@@ -52,21 +52,23 @@
 	"OPTIONSELECT_TOGGLEPVP": "تبديل القتال",
 	"OPTIONSELECT_TOGGLEPVPTEAMS": "تبديل لفرق القتال",
 	"OPTIONSELECT_TOGGLEFRIENDLYFIRE": "تبديل النيران الصديقة",
-	"OPTIONSELECT_TOGGLEDRIEDFINGER": "Open world to more invaders",
+	"OPTIONSELECT_TOGGLEDRIEDFINGER": "افتتاح العالم لمزيد من الغزاة",
 	"OPTIONSELECT_GIVEEMBER": "تضحية {} من الرون من أجل الرون المقوس",
-	"OPTIONSELECT_EASYENEMYRUSH": "Easy",
-	"OPTIONSELECT_MEDENEMYRUSH": "Medium",
-	"OPTIONSELECT_HARDENEMYRUSH": "Hard",
-	"OPTIONSELECT_INFENEMYRUSH": "Impossible",
-	"OPTIONSELECT_BOSSRUSH": "BOSS",
+	"OPTIONSELECT_EASYENEMYRUSH": "سهل",
+	"OPTIONSELECT_MEDENEMYRUSH": "متوسط",
+	"OPTIONSELECT_HARDENEMYRUSH": "صعب",
+	"OPTIONSELECT_INFENEMYRUSH": "مستحيل",
+	"OPTIONSELECT_BOSSRUSH": "زعيم",
+	"OPTIONSELECT_BOSSRUSHDLC": "زعيم (DLC)",
+	"OPTIONSELECT_BOSSRUSHBASEDLC": "زعيم (ALL)",
 
 	"FE_PLAYERDEATH": "نال الموت منك",
 	"FE_BLOCKCLEAR": "تم صرع العدو",
 	"FE_PKMISSIONSUCCESS": "تم تحقيق النصر",
 	"FE_PKPLAYERBANISHED": "تم هزيمة الغازي",
-	"FE_BRARENASTART": "START",
-	"FE_BRARENALOSE": "FAILURE",
-	"FE_BRARENAWIN": "VICTORY",
+	"FE_BRARENASTART": "انطلق",
+	"FE_BRARENALOSE": "إخفاق",
+	"FE_BRARENAWIN": "انتصار",
 
 	"YKNX2_DISPLAYPASSWORD": "كلمة مرور الجلسة\n{}",
 	"YKNX2_HOSTINGFAILED": "فشل بدء الجلسة:\n{}",
@@ -101,9 +103,12 @@
 
 	"ACTIONBUTTON_BOSSROOMKICKOUT": "لقد طردتك قوة النعمة من الساحة",
 	
-	"YKBR2_INFORMBATTLESTART": "You feel a mysterious warmth wash over you",	
-	"YKBR2_INFORMBATTLEWAVE": "Battle wave {} is approaching...",
-	"YKBR2_INFORMBATTLEEND": "You begin to awake...",
+	"YKBR2_INFORMBATTLESTART": "تشعر بدفء غامض يغمرك",	
+	"YKBR2_INFORMBATTLEWAVE": "موجة المعركة {} تقترب...",
+	"YKBR2_INFORMBATTLEEND": "بدأت تستيقظ...",
+	"YKBR2_NOFUNCTION": "You must first open your world",
+	"YKBR2_NOPERMISSION": "Only the world's master can interact with it",
+	"YKBR2_NOACCESS": "Dragonlord Placidusax denies your entry",
 
 	"CREDITS": "LukeYui"
 }

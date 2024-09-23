@@ -59,6 +59,12 @@
 	"OPTIONSELECT_HARDENEMYRUSH": "Hard",
 	"OPTIONSELECT_INFENEMYRUSH": "Impossible",
 	"OPTIONSELECT_BOSSRUSH": "BOSS",
+	"OPTIONSELECT_BOSSRUSHDLC": "BOSS (DLC)",
+	"OPTIONSELECT_BOSSRUSHBASEDLC": "BOSS (ALL)",
+	"OPTIONSELECT_STARTEVILSESSION": "Start evil session",
+	"OPTIONSELECT_SEEKEVILSESSION": "Join evil session",
+	"OPTIONSELECT_VIEWEVILSESSION": "View evil session",
+	"OPTIONSELECT_LEAVEEVILSESSION": "Leave evil session",
 
 	"FE_PLAYERDEATH": "KUOLIT",
 	"FE_BLOCKCLEAR": "VIHOLLINEN KUOLI",
@@ -104,6 +110,9 @@
 	"YKBR2_INFORMBATTLESTART": "You feel a mysterious warmth wash over you",	
 	"YKBR2_INFORMBATTLEWAVE": "Battle wave {} is approaching...",
 	"YKBR2_INFORMBATTLEEND": "You begin to awake...",
+	"YKBR2_NOFUNCTION": "You must first open your world",
+	"YKBR2_NOPERMISSION": "Only the world's master can interact with it",
+	"YKBR2_NOACCESS": "Dragonlord Placidusax denies your entry",
 
 	"CREDITS": "RayDit - YukeLui"
 }
