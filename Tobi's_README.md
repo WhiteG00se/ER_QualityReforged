@@ -17,3 +17,9 @@
 - delete everything in previous folder aside from ".gitignore" (or discard deleting it)
 - unzip ERR into the repo folder
 - discard all changed and deleted files with GIT (if there are added files, the gitignore is probably outdated)
+
+# how to run python script to modify csv
+```
+pip install rbql
+cd tobi_src ; python modify_csv.py ; cd ..
+```
