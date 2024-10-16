@@ -13,6 +13,7 @@ dll/active/ertransmogrify.ini
 dll/optional/erd_tools.ini
 
 # files I edited
+!mod/regulation.bin.sale
 !mod/altsaves.toml
 !dll/active/ersc_settings.ini
 !Tobi's_README.txt
