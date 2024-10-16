@@ -1,4 +1,4 @@
-ID,Name,disableParam_NT,disableParamReserve1,disableParamReserve2,refId,sfxVariationId,weight,behaviorId,basicPrice,sellValue,sortId,qwcId,equipModelId,iconId,shopLv,trophySGradeId,trophySeqId,equipModelCategory,equipModelGender,accessoryCategory,refCategory,spEffectCategory,sortGroupId,vagrantItemLotId,vagrantBonusEneDropItemLotId,vagrantItemEneDropItemLotId,isDeposit,isEquipOutBrake,disableMultiDropShare,isDiscard,isDrop,showLogCondType,showDialogCondType,rarity,pad2,saleValue,accessoryGroup,pad3,compTrophySedId,residentSpEffectId1,residentSpEffectId2,residentSpEffectId3,residentSpEffectId4,pad1
+ID,Name,disableParam_NT,disableParamReserve1,disableParamReserve2,refId,sfxVariationId,weight,behaviorId,basicPrice,sellValue,sortId,qwcId,equipModelId,iconId,shopLv,trophySGradeId,trophySeqId,equipModelCategory,equipModelGender,accessoryCategory,refCategory,spEffectCategory,sortGroupId,vagrantItemLotId,vagrantBonusEneDropItemLotId,vagrantItemEneDropItemLotId,isDeposit,isEquipOutBrake,disableMultiDropShare,isDiscard,isDrop,showLogCondType,showDialogCondType,rarity,pad2,saleValue,accessoryGroup,pad3,compTrophySedId,residentSpEffectId1,residentSpEffectId2,residentSpEffectId3,residentSpEffectId4,pad1,
 1000,,0,0,[0|0|0],310000,-1,0,0,0,100,400000,0,0,18000,-1,-1,-1,0,0,0,2,0,10,-1,-1,-1,1,0,0,1,1,1,2,2,[0|0],0,1000,0,-1,0,0,0,0,[0|0|0|0]
 1001,,1,0,[0|0|0],310010,-1,0,0,0,500,400010,0,0,18001,-1,-1,-1,0,0,0,2,0,10,-1,-1,-1,1,0,0,1,1,1,2,2,[0|0],0,1000,0,-1,0,0,0,0,[0|0|0|0]
 1002,,1,0,[0|0|0],310020,-1,0,0,0,1000,400020,0,0,18002,-1,-1,-1,0,0,0,2,0,10,-1,-1,-1,1,0,0,1,1,1,2,2,[0|0],0,1000,0,-1,0,0,0,0,[0|0|0|0]
@@ -166,6 +166,6 @@ ID,Name,disableParam_NT,disableParamReserve1,disableParamReserve2,refId,sfxVaria
 8210,,0,0,[0|0|0],19985,-1,0,0,0,500,405015,0,0,18933,-1,-1,-1,0,0,0,2,0,60,-1,-1,-1,1,0,0,1,1,1,2,2,[0|0],0,8210,0,-1,0,0,0,0,[0|0|0|0]
 8220,,0,0,[0|0|0],20382200,-1,0,0,0,500,404080,0,0,18935,-1,-1,-1,0,0,0,2,0,50,-1,-1,-1,1,0,0,1,1,1,2,2,[0|0],0,8220,0,-1,0,0,0,0,[0|0|0|0]
 8230,,0,0,[0|0|0],20382300,-1,0,0,0,500,406035,0,0,18936,-1,-1,-1,0,0,0,2,0,70,-1,-1,-1,1,0,0,1,1,1,2,2,[0|0],0,8230,0,-1,0,0,0,0,[0|0|0|0]
-8240,,0,0,[0|0|0],341100,-1,0,0,0,2000,405100,0,0,18939,-1,-1,-1,0,0,0,2,0,60,-1,-1,-1,1,0,0,1,1,1,2,2,[0|0],0,4060,0,-1,340700,20380100,340600,340601,[0|0|0|0]
+8240,,0,0,[0|0|0],341100,-1,0,0,0,2000,405100,0,0,18939,-1,-1,-1,0,0,0,2,0,60,-1,-1,-1,1,0,0,1,1,1,2,2,[0|0],0,4060,0,-1,340700,20380100,340600,382400,[0|0|0|0]
 204000,,0,0,[0|0|0],20511070,-1,0,0,0,100,999999,0,0,0,-1,-1,-1,0,0,0,2,0,255,-1,-1,-1,1,0,0,1,1,1,2,2,[0|0],0,1000,0,-1,0,0,0,0,[0|0|0|0]
 999999999,,1,0,[0|0|0],361100,-1,0,0,0,100,9999999,0,0,18880,-1,-1,-1,0,0,0,2,0,255,-1,-1,-1,1,0,0,1,0,1,2,1,[0|0],0,6100,0,-1,0,0,0,0,[0|0|0|0]
