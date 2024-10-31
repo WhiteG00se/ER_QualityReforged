@@ -1,0 +1,7 @@
+param EquipParamAccessory: positive sellValue: sellValue: = 1
+##id range for runes (inclusive)
+param EquipParamGoods: positive sellValue && !idrange 2900 2919: sellValue: = 1
+param EquipParamProtector: positive sellValue: sellValue: = 1
+param EquipParamWeapon: positive sellValue: sellValue: = 1
+param ShopLineupParam: positive value: value: = 1
+##add last smithing stone
