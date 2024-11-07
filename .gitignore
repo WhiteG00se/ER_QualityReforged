@@ -12,12 +12,14 @@ dll/active/ertransmogrify.dll
 dll/active/ertransmogrify.ini
 dll/optional/erd_tools.ini
 
-# files I edited
-!mod/regulation.bin.sale
+#whitelist
+!mod/regulation.bin
+!mod/regulation.bin.stock
+!mod/project.json
 !mod/altsaves.toml
 !dll/active/ersc_settings.ini
 !Tobi's_README.txt
 !Tobi's_README.md
 !load.txt
-/dll/active/PostureBarResources
-/dll/optional
+!/dll/active/PostureBarResources
+!/dll/optional
