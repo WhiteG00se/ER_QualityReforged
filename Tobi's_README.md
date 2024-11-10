@@ -3,6 +3,7 @@
 - EldenRingFpsUnlockAndMore.exe https://github.com/uberhalit/EldenRingFpsUnlockAndMore/releases
 - eldenring_all-in-one_Hexinton CE Table https://www.nexusmods.com/eldenring/mods/48?tab=files
 - Seamless Coop https://www.nexusmods.com/eldenring/mods/510?tab=files
+- PostureBarMod https://www.nexusmods.com/eldenring/mods/3405/?tab=files
 
 # how to install
 
