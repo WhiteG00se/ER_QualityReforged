@@ -4,4 +4,24 @@ param EquipParamGoods: positive sellValue && !idrange 2900 2919: sellValue: = 1
 param EquipParamProtector: positive sellValue: sellValue: = 1
 param EquipParamWeapon: positive sellValue: sellValue: = 1
 param ShopLineupParam: positive value: value: = 1
-##add last smithing stone
+
+## Twin Maiden - random talismans => last smithing stone (40) and last somber stone (68)
+param ShopLineupParam: id 101862: equipId: = 10140
+param ShopLineupParam: id 101862: equipType: = 3
+param ShopLineupParam: id 101862: sellQuantity: = -1
+param ShopLineupParam: id 101863: equipId: = 10168
+param ShopLineupParam: id 101863: equipType: = 3
+param ShopLineupParam: id 101863: sellQuantity: = -1
+
+## weight of non-shield weapons to 0
+param EquipParamWeapon: !proprange wepType 65 69 && positive weight: weight: = 0
+## lower equid load for any endurance by 15 (Val0 used to be same as Val1)
+param CalcCorrectGraph: id 220: stageMaxGrowVal0: = 85
+param CalcCorrectGraph: id 220: stageMaxGrowVal1: = 85
+param CalcCorrectGraph: id 220: stageMaxGrowVal2: = 85
+param CalcCorrectGraph: id 220: stageMaxGrowVal3: = 85
+param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 85
+
+## give every weapon and shield 100% phys block and at least 35 guard boost
+param EquipParamWeapon: positive physGuardCutRate: physGuardCutRate: = 100
+param EquipParamWeapon: proprange staminaGuardDef 1 35: staminaGuardDef: = 35
