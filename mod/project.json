@@ -2,7 +2,10 @@
   "ProjectName": "ER_QualityReforged",
   "GameRoot": "D:\\Games\\Steam\\steamapps\\common\\ELDEN RING\\Game",
   "GameType": 8,
-  "PinnedParams": [],
+  "PinnedParams": [
+    "EquipParamGoods",
+    "ShopLineupParam"
+  ],
   "PinnedRows": {},
   "PinnedFields": {},
   "UseLooseParams": false,
