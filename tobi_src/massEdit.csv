@@ -32,7 +32,7 @@ param EquipParamWeapon: proprange maxArrowQuantity 2 255: maxArrowQuantity: = 25
 
 ## make "Navy Hood" regen 1% FP per second but no longer adds mind
 param SpEffectParam: id 6074100: motionInterval: = 1
-param SpEffectParam: id 6074100: changeMpRate: = 1
+param SpEffectParam: id 6074100: changeMpRate: = -1
 param SpEffectParam: id 6074100: addWillpowerStatus: = 0
 
 ## unnerf FP flasks
