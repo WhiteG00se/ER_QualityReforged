@@ -1,4 +1,3 @@
-*.lnk
 *.log
 *.bat
 *.md
@@ -7,6 +6,7 @@
 /extras
 /internals
 /mod
+/troubleshooting
 
 dll/active/ertransmogrify.dll
 dll/active/ertransmogrify.ini
