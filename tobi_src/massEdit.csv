@@ -53,14 +53,16 @@ param SpEffectParam: id 501062: changeMpEstusFlaskPoint: = -2200
 
 ## buff healing incantation radius
 ## Heal 
-param Bullet: id 10642101: hitRadius: = 20
+param Bullet: id 10642101: hitRadius: = 40
 ## Great Heal 
-param Bullet: id 10642201: hitRadius: = 20
+param Bullet: id 10642201: hitRadius: = 40
 ## Lord's Heal
-param Bullet: id 10642301: hitRadius: = 20
+param Bullet: id 10642301: hitRadius: = 40
 ## Erdtree Heal
-param Bullet: id 10642401: hitRadius: = 20
-param Bullet: id 10642401: hitRadiusMax: = 20
+param Bullet: id 10642401: hitRadius: = 40
+param Bullet: id 10642401: hitRadiusMax: = 40
+## Heal from Afar
+param Bullet: id 210640001: hitRadius: = 40
 
 ## lower weapon stat requirements (not for shields and catalysts)
 param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 10 19: properStrength: = 10
