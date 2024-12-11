@@ -32,9 +32,9 @@ param EquipParamWeapon: proprange staminaGuardDef 1 35: staminaGuardDef: = 35
 ## change arrow and bolt limits to 255
 param EquipParamWeapon: proprange maxArrowQuantity 2 255: maxArrowQuantity: = 255
 
-## make "Navy Hood" regen 1% FP per second but no longer adds mind
-param SpEffectParam: id 6074100: motionInterval: = 1
-param SpEffectParam: id 6074100: changeMpRate: = -0.833333
+## make "Navy Hood" regen 2% FP per 2 second but no longer adds mind
+param SpEffectParam: id 6074100: motionInterval: = 2
+param SpEffectParam: id 6074100: changeMpRate: = -2
 param SpEffectParam: id 6074100: addWillpowerStatus: = 0
 
 ## unnerf FP flasks
