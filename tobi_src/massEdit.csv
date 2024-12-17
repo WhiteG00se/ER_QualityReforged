@@ -9,21 +9,21 @@ param ShopLineupParam: proprange value 0 999999 && prop costType 0: value: = 0
 param ShopLineupParam: proprange value 0 999999 && !prop costType 0: value: = 1
 
 ## Twin Maiden - random talismans => last smithing stone (40) and last somber stone (68)
-param ShopLineupParam: id 101862: equipId: = 10140
-param ShopLineupParam: id 101862: equipType: = 3
-param ShopLineupParam: id 101862: sellQuantity: = -1
-param ShopLineupParam: id 101863: equipId: = 10168
-param ShopLineupParam: id 101863: equipType: = 3
-param ShopLineupParam: id 101863: sellQuantity: = -1
+param ShopLineupParam: id ^101862$: equipId: = 10140
+param ShopLineupParam: id ^101862$: equipType: = 3
+param ShopLineupParam: id ^101862$: sellQuantity: = -1
+param ShopLineupParam: id ^101863$: equipId: = 10168
+param ShopLineupParam: id ^101863$: equipType: = 3
+param ShopLineupParam: id ^101863$: sellQuantity: = -1
 
 ## weight of non-shield weapons to 0
 param EquipParamWeapon: !proprange wepType 65 69 && positive weight: weight: = 0
 ## lower equid load for any endurance by 15 (Val0 used to be same as Val1)
-param CalcCorrectGraph: id 220: stageMaxGrowVal0: = 85
-param CalcCorrectGraph: id 220: stageMaxGrowVal1: = 85
-param CalcCorrectGraph: id 220: stageMaxGrowVal2: = 85
-param CalcCorrectGraph: id 220: stageMaxGrowVal3: = 85
-param CalcCorrectGraph: id 220: stageMaxGrowVal4: = 85
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal0: = 85
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal1: = 85
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal2: = 85
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal3: = 85
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal4: = 85
 
 ## give every weapon and shield 100% phys block and at least 35 guard boost
 param EquipParamWeapon: positive physGuardCutRate: physGuardCutRate: = 100
@@ -33,38 +33,38 @@ param EquipParamWeapon: proprange staminaGuardDef 1 35: staminaGuardDef: = 35
 param EquipParamWeapon: proprange maxArrowQuantity 2 255: maxArrowQuantity: = 255
 
 ## make "Navy Hood" regen 2% FP per 2 second but no longer adds mind
-param SpEffectParam: id 6074100: motionInterval: = 2
-param SpEffectParam: id 6074100: changeMpRate: = -2
-param SpEffectParam: id 6074100: addWillpowerStatus: = 0
+param SpEffectParam: id ^6074100$: motionInterval: = 2
+param SpEffectParam: id ^6074100$: changeMpRate: = -2
+param SpEffectParam: id ^6074100$: addWillpowerStatus: = 0
 
 ## unnerf FP flasks
-param SpEffectParam: id 501050: changeMpEstusFlaskPoint: = -800
-param SpEffectParam: id 501051: changeMpEstusFlaskPoint: = -950
-param SpEffectParam: id 501052: changeMpEstusFlaskPoint: = -1100
-param SpEffectParam: id 501053: changeMpEstusFlaskPoint: = -1250
-param SpEffectParam: id 501054: changeMpEstusFlaskPoint: = -1400
-param SpEffectParam: id 501055: changeMpEstusFlaskPoint: = -1500
-param SpEffectParam: id 501056: changeMpEstusFlaskPoint: = -1600
-param SpEffectParam: id 501057: changeMpEstusFlaskPoint: = -1700
-param SpEffectParam: id 501058: changeMpEstusFlaskPoint: = -1800
-param SpEffectParam: id 501059: changeMpEstusFlaskPoint: = -1900
-param SpEffectParam: id 501060: changeMpEstusFlaskPoint: = -2000
-param SpEffectParam: id 501061: changeMpEstusFlaskPoint: = -2100
-param SpEffectParam: id 501062: changeMpEstusFlaskPoint: = -2200
+param SpEffectParam: id ^501050%: changeMpEstusFlaskPoint: = -800
+param SpEffectParam: id ^501051%: changeMpEstusFlaskPoint: = -950
+param SpEffectParam: id ^501052%: changeMpEstusFlaskPoint: = -1100
+param SpEffectParam: id ^501053%: changeMpEstusFlaskPoint: = -1250
+param SpEffectParam: id ^501054%: changeMpEstusFlaskPoint: = -1400
+param SpEffectParam: id ^501055%: changeMpEstusFlaskPoint: = -1500
+param SpEffectParam: id ^501056%: changeMpEstusFlaskPoint: = -1600
+param SpEffectParam: id ^501057%: changeMpEstusFlaskPoint: = -1700
+param SpEffectParam: id ^501058%: changeMpEstusFlaskPoint: = -1800
+param SpEffectParam: id ^501059%: changeMpEstusFlaskPoint: = -1900
+param SpEffectParam: id ^501060%: changeMpEstusFlaskPoint: = -2000
+param SpEffectParam: id ^501061%: changeMpEstusFlaskPoint: = -2100
+param SpEffectParam: id ^501062%: changeMpEstusFlaskPoint: = -2200
 
 
 ## buff healing incantation radius
 ## Heal 
-param Bullet: id 10642101: hitRadius: = 40
+param Bullet: id ^10642101$: hitRadius: = 40
 ## Great Heal 
-param Bullet: id 10642201: hitRadius: = 40
+param Bullet: id ^10642201$: hitRadius: = 40
 ## Lord's Heal
-param Bullet: id 10642301: hitRadius: = 40
+param Bullet: id ^10642301$: hitRadius: = 40
 ## Erdtree Heal
-param Bullet: id 10642401: hitRadius: = 40
-param Bullet: id 10642401: hitRadiusMax: = 40
+param Bullet: id ^10642401$: hitRadius: = 40
+param Bullet: id ^10642401$: hitRadiusMax: = 40
 ## Heal from Afar
-param Bullet: id 210640001: hitRadius: = 40
+param Bullet: id ^210640001$: hitRadius: = 40
 
 ## lower weapon stat requirements (not for shields and catalysts)
 param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 10 19: properStrength: = 10
