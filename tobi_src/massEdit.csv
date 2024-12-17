@@ -52,6 +52,21 @@ param SpEffectParam: id ^501060%: changeMpEstusFlaskPoint: = -2000
 param SpEffectParam: id ^501061%: changeMpEstusFlaskPoint: = -2100
 param SpEffectParam: id ^501062%: changeMpEstusFlaskPoint: = -2200
 
+## unnerf HP flasks by 4800hp/2100hp (details in wiki)
+param SpEffectParam: id ^501000%: changeMpEstusFlaskPoint: = -580
+param SpEffectParam: id ^501001%: changeMpEstusFlaskPoint: = -790
+param SpEffectParam: id ^501002%: changeMpEstusFlaskPoint: = -990
+param SpEffectParam: id ^501003%: changeMpEstusFlaskPoint: = -1160
+param SpEffectParam: id ^501004%: changeMpEstusFlaskPoint: = -1310
+param SpEffectParam: id ^501005%: changeMpEstusFlaskPoint: = -1430
+param SpEffectParam: id ^501006%: changeMpEstusFlaskPoint: = -1540
+param SpEffectParam: id ^501007%: changeMpEstusFlaskPoint: = -1600
+param SpEffectParam: id ^501008%: changeMpEstusFlaskPoint: = -1670
+param SpEffectParam: id ^501009%: changeMpEstusFlaskPoint: = -1730
+param SpEffectParam: id ^501010%: changeMpEstusFlaskPoint: = -1790
+param SpEffectParam: id ^501011%: changeMpEstusFlaskPoint: = -1820
+param SpEffectParam: id ^501012%: changeMpEstusFlaskPoint: = -1860
+
 
 ## buff healing incantation radius
 ## Heal 
@@ -68,12 +83,79 @@ param Bullet: id ^210640001$: hitRadius: = 40
 
 ## lower weapon stat requirements (not for shields and catalysts)
 param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 10 19: properStrength: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properStrength 20 99: properStrength: = 20
 param EquipParamWeapon: !proprange wepType 57 69 && proprange properAgility 10 19: properAgility: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properAgility 20 99: properAgility: = 20
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 10 19: properMagic: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 20 99: properMagic: = 20
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 10 19: properFaith: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 20 99: properFaith: = 20
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 10 19: properLuck: = 10
-param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 20 99: properLuck: = 20
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properMagic 10 99: properMagic: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properFaith 10 99: properFaith: = 10
+param EquipParamWeapon: !proprange wepType 57 69 && proprange properLuck 10 99 :properLuck: = 10
+
+## buff equid load gain from endurance by a lot
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal0: = 10
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal1: = 40
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal2: = 100
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal3: = 200
+param CalcCorrectGraph: id ^220$: stageMaxGrowVal4: = 210
+param CalcCorrectGraph: id ^220$: stageMaxVal0: = 1
+param CalcCorrectGraph: id ^220$: stageMaxVal1: = 10
+param CalcCorrectGraph: id ^220$: stageMaxVal2: = 30
+param CalcCorrectGraph: id ^220$: stageMaxVal3: = 80
+param CalcCorrectGraph: id ^220$: stageMaxVal4: = 99
+
+## block class 1 (check wiki)
+param EquipParamWeapon: prop wepType ^(65|67|69|57|61|90|91)$: staminaGuardDef: = 47
+param EquipParamWeapon: prop wepType ^(65|67|69|57|61|90|91)$: physGuardCutRate: = 70
+param EquipParamWeapon: prop wepType ^(65|67|69|57|61|90|91)$: magGuardCutRate: = 60
+param EquipParamWeapon: prop wepType ^(65|67|69|57|61|90|91)$: fireGuardCutRate: = 60
+param EquipParamWeapon: prop wepType ^(65|67|69|57|61|90|91)$: thunGuardCutRate: = 60
+param EquipParamWeapon: prop wepType ^(65|67|69|57|61|90|91)$: darkGuardCutRate: = 60
+param EquipParamWeapon: prop wepType ^(65|67|69|57|61|90|91)$: poisonGuardResist: = 60
+param EquipParamWeapon: prop wepType ^(65|67|69|57|61|90|91)$: diseaseGuardResist: = 60
+param EquipParamWeapon: prop wepType ^(65|67|69|57|61|90|91)$: bloodGuardResist: = 60
+param EquipParamWeapon: prop wepType ^(65|67|69|57|61|90|91)$: curseGuardResist: = 60
+param EquipParamWeapon: prop wepType ^(65|67|69|57|61|90|91)$: freezeGuardResist: = 60
+param EquipParamWeapon: prop wepType ^(65|67|69|57|61|90|91)$: sleepGuardResist: = 60
+param EquipParamWeapon: prop wepType ^(65|67|69|57|61|90|91)$: madnessGuardResist: = 60
+
+## block class 2 (check wiki)
+param EquipParamWeapon: prop wepType ^(1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95)$: staminaGuardDef: = 77
+param EquipParamWeapon: prop wepType ^(1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95)$: physGuardCutRate: = 82
+param EquipParamWeapon: prop wepType ^(1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95)$: magGuardCutRate: = 72
+param EquipParamWeapon: prop wepType ^(1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95)$: fireGuardCutRate: = 72
+param EquipParamWeapon: prop wepType ^(1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95)$: thunGuardCutRate: = 72
+param EquipParamWeapon: prop wepType ^(1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95)$: darkGuardCutRate: = 72
+param EquipParamWeapon: prop wepType ^(1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95)$: poisonGuardResist: = 72
+param EquipParamWeapon: prop wepType ^(1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95)$: diseaseGuardResist: = 72
+param EquipParamWeapon: prop wepType ^(1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95)$: bloodGuardResist: = 72
+param EquipParamWeapon: prop wepType ^(1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95)$: curseGuardResist: = 72
+param EquipParamWeapon: prop wepType ^(1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95)$: freezeGuardResist: = 72
+param EquipParamWeapon: prop wepType ^(1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95)$: sleepGuardResist: = 72
+param EquipParamWeapon: prop wepType ^(1|3|5|9|11|13|14|17|24|31|35|37|39|87|89|92|93|94|95)$: madnessGuardResist: = 72
+
+## block class 3 (check wiki)
+param EquipParamWeapon: prop wepType ^(7|23|29|41)$: staminaGuardDef: = 82
+param EquipParamWeapon: prop wepType ^(7|23|29|41)$: physGuardCutRate: = 85
+param EquipParamWeapon: prop wepType ^(7|23|29|41)$: magGuardCutRate: = 75
+param EquipParamWeapon: prop wepType ^(7|23|29|41)$: fireGuardCutRate: = 75
+param EquipParamWeapon: prop wepType ^(7|23|29|41)$: thunGuardCutRate: = 75
+param EquipParamWeapon: prop wepType ^(7|23|29|41)$: darkGuardCutRate: = 75
+param EquipParamWeapon: prop wepType ^(7|23|29|41)$: poisonGuardResist: = 75
+param EquipParamWeapon: prop wepType ^(7|23|29|41)$: diseaseGuardResist: = 75
+param EquipParamWeapon: prop wepType ^(7|23|29|41)$: bloodGuardResist: = 75
+param EquipParamWeapon: prop wepType ^(7|23|29|41)$: curseGuardResist: = 75
+param EquipParamWeapon: prop wepType ^(7|23|29|41)$: freezeGuardResist: = 75
+param EquipParamWeapon: prop wepType ^(7|23|29|41)$: sleepGuardResist: = 75
+param EquipParamWeapon: prop wepType ^(7|23|29|41)$: madnessGuardResist: = 75
+
+## block class 4 (check wiki)
+param EquipParamWeapon: prop wepType ^(15|16|25|28)$: staminaGuardDef: = 85
+param EquipParamWeapon: prop wepType ^(15|16|25|28)$: physGuardCutRate: = 88
+param EquipParamWeapon: prop wepType ^(15|16|25|28)$: magGuardCutRate: = 78
+param EquipParamWeapon: prop wepType ^(15|16|25|28)$: fireGuardCutRate: = 78
+param EquipParamWeapon: prop wepType ^(15|16|25|28)$: thunGuardCutRate: = 78
+param EquipParamWeapon: prop wepType ^(15|16|25|28)$: darkGuardCutRate: = 78
+param EquipParamWeapon: prop wepType ^(15|16|25|28)$: poisonGuardResist: = 78
+param EquipParamWeapon: prop wepType ^(15|16|25|28)$: diseaseGuardResist: = 78
+param EquipParamWeapon: prop wepType ^(15|16|25|28)$: bloodGuardResist: = 78
+param EquipParamWeapon: prop wepType ^(15|16|25|28)$: curseGuardResist: = 78
+param EquipParamWeapon: prop wepType ^(15|16|25|28)$: freezeGuardResist: = 78
+param EquipParamWeapon: prop wepType ^(15|16|25|28)$: sleepGuardResist: = 78
+param EquipParamWeapon: prop wepType ^(15|16|25|28)$: madnessGuardResist: = 78
