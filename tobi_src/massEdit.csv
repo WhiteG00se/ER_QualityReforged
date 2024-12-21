@@ -16,17 +16,6 @@ param ShopLineupParam: id ^101863$: equipId: = 10168
 param ShopLineupParam: id ^101863$: equipType: = 3
 param ShopLineupParam: id ^101863$: sellQuantity: = -1
 
-## lower equid load for any endurance by 15 (Val0 used to be same as Val1)
-param CalcCorrectGraph: id ^220$: stageMaxGrowVal0: = 85
-param CalcCorrectGraph: id ^220$: stageMaxGrowVal1: = 85
-param CalcCorrectGraph: id ^220$: stageMaxGrowVal2: = 85
-param CalcCorrectGraph: id ^220$: stageMaxGrowVal3: = 85
-param CalcCorrectGraph: id ^220$: stageMaxGrowVal4: = 85
-
-## give every weapon and shield 100% phys block and at least 35 guard boost
-param EquipParamWeapon: positive physGuardCutRate: physGuardCutRate: = 100
-param EquipParamWeapon: proprange staminaGuardDef 1 35: staminaGuardDef: = 35
-
 ## change arrow and bolt limits to 255
 param EquipParamWeapon: proprange maxArrowQuantity 2 255: maxArrowQuantity: = 255
 
