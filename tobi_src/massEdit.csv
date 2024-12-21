@@ -4,7 +4,7 @@ param EquipParamAccessory: positive sellValue: sellValue: = 0
 param EquipParamGem: positive sellValue: sellValue: = 0
 param EquipParamProtector: positive sellValue: sellValue: = 0
 param EquipParamWeapon: positive sellValue: sellValue: = 0
-## costType 0 are runes
+## costType 0 means runes are the currency
 param ShopLineupParam: proprange value 0 999999 && prop costType 0: value: = 0
 param ShopLineupParam: proprange value 0 999999 && !prop costType 0: value: = 1
 
