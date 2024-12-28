@@ -6,7 +6,6 @@ param EquipParamProtector: positive sellValue: sellValue: = 0
 param EquipParamWeapon: positive sellValue: sellValue: = 0
 ## costType 0 means runes are the currency
 param ShopLineupParam: proprange value 0 999999 && prop costType 0: value: = 0
-param ShopLineupParam: proprange value 0 999999 && !prop costType 0: value: = 1
 
 ## Twin Maiden - random talismans => last smithing stone (40) and last somber stone (68)
 param ShopLineupParam: id 101862: equipId: = 10140
@@ -67,7 +66,7 @@ param Bullet: id 10642401: hitRadiusMax: = 40
 ## Heal from Afar
 param Bullet: id 210640001: hitRadius: = 40
 
-## buff equid load gain from endurance by a lot
+## buff equid load gain from endurance
 param CalcCorrectGraph: id 220: stageMaxGrowVal0: = 10
 param CalcCorrectGraph: id 220: stageMaxGrowVal1: = 40
 param CalcCorrectGraph: id 220: stageMaxGrowVal2: = 100
