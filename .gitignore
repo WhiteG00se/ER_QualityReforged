@@ -17,8 +17,7 @@ dll/optional/erd_tools.ini
 !mod/project.json
 !mod/altsaves.toml
 !dll/active/ersc_settings.ini
-!Tobi's_README.txt
-!Tobi's_README.md
+!README.md
 !load.txt
 !/dll/active/PostureBarResources
 !/dll/optional
