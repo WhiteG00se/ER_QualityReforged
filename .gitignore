@@ -3675,3 +3675,11 @@ troubleshooting/Download ELDEN RING Debug Tool + ERR Resources.lnk
 troubleshooting/Go to ELDEN RING Save Folder.lnk
 troubleshooting/Launch ELDEN RING Reforged (Debug mode).BAT
 troubleshooting/Reforged UI Setup (Gideon).lnk
+internals/launcher/output.log
+internals/modengine/config_eldenring.toml
+internals/modengine/gamepath.txt
+internals/modengine/dll/logs/ertransmogrify_2025-01-16.log
+internals/modengine/modengine_2025-01-16.log
+mod/menu/deploy/projects/ELDENRINGReforged/last-user-update.txt
+mod/menu/hi/00_Solo.tpfbdt
+mod/menu/hi/00_Solo.tpfbhd
