@@ -1,3 +1,5 @@
+/mod/.smithbox
+
 \!\! Launch ELDEN RING Reforged.BAT
 CHANGELOG.txt
 CREDITS.txt
@@ -3686,3 +3688,19 @@ mod/menu/hi/00_Solo.tpfbhd
 internals/modengine/dll/logs/ertransmogrify_2025-01-17.log
 internals/modengine/dll/logs/ertransmogrify_2025-01-19.log
 internals/modengine/modengine_2025-01-19.log
+mod/regulation.bin.prev
+mod/map/MapStudio/m61_23_19_01.msb.dcx
+mod/menu/deploy/projects/ELDENRINGReforged/solo/MENU_Knowledge_45683.tpf.dcx
+mod/menu/deploy/projects/ELDENRINGReforged/solo/MENU_Knowledge_45684.tpf.dcx
+mod/menu/deploy/projects/ELDENRINGReforged/solo/MENU_Knowledge_45685.tpf.dcx
+mod/menu/deploy/projects/ELDENRINGReforged/solo/MENU_Knowledge_45686.tpf.dcx
+mod/param/systemparam/systemparam.parambnd.dcx.prev
+mod/parts/am_m_1655.partsbnd.dcx
+mod/parts/am_m_1655_l.partsbnd.dcx
+mod/parts/bd_m_1655.partsbnd.dcx
+mod/parts/bd_m_1655_l.partsbnd.dcx
+mod/parts/hd_m_1655.partsbnd.dcx
+mod/parts/hd_m_1655_l.partsbnd.dcx
+mod/parts/lg_m_1655.partsbnd.dcx
+mod/parts/lg_m_1655_l.partsbnd.dcx
+mod/script/586000_battle.luabnd.dcx
